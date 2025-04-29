@@ -1,0 +1,30 @@
+{
+  "name": "white-waterfall-65c1",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "billowing-field-9c9a-d1",
+      "database_id": "dc38e61d-d39c-4ac4-a4d8-2c17a1aaa1c5"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "white-waterfall-65c1-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
